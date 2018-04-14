@@ -85,6 +85,7 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
 * AssertJ java doc : http://joel-costigliola.github.io/assertj/core-8/api/index.html
 
 ## 아직 궁금한 부분
+* 어디까지 검증할 수 있는가?
 * Front-End TDD 적용 방법
 * DB 연관된 부분
 * TDD코드도 함께 배포하는가?
