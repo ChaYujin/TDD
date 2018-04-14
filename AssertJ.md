@@ -83,3 +83,7 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
 * AssertJ는 오픈 소스 프로젝트로 github에 공개되어있다. 아래 URL에 상황에 맞는 샘플이 작성되어있는데 시간이 남을 때 참고하면 좋겠다.
 * AssertJ 샘플 : https://github.com/joel-costigliola/assertj-examples/tree/master/assertions-examples/src/test/java/org/assertj/examples
 * AssertJ java doc : http://joel-costigliola.github.io/assertj/core-8/api/index.html
+
+## 아직 궁금한 부분
+* Front-End TDD 적용 방법
+* DB 연관된 부분
