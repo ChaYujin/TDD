@@ -1,10 +1,10 @@
-#AssertJ 사용법
+# AssertJ 사용법
 
-##AssertJ의 장점
+## AssertJ의 장점
 1. 메소드 체이닝을 지원하기 때문에 좀 더 깔끔하고 읽기 쉬운 테스트 코드를 작성할 수 있습니다.
 2. 개발자가 테스트를 하면서 필요하다고 상상할 수 있는 거의 모든 메소드를 제공합니다.
 
-##라이브러리 의존성 설정
+## 라이브러리 의존성 설정
 Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝트는 2.x 버전을 사용하셔야 합니다.
     
 *  Gradle
@@ -23,12 +23,12 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
     </dependency>                 
     ```
     
-##테스트의 시작
+## 테스트의 시작
 * 모든 테스트 코드는 assertThat() 메소드에서 출발합니다.
 * 다음과 같은 포멧으로 AssertJ에서 제공하는 다양한 메소드를 연쇄 호출 하면서 코드를 작성할 수 있습니다.
 * assertThat(테스트 타켓).메소드1().메소드2().메소드3();
 
-##AssertJ API 사용법
+## AssertJ API 사용법
 * [common] AssertJ를 사용하기위해 필요한 package import
     >import static org.assertj.core.api.Assertions.*; 
 
@@ -79,7 +79,7 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
 * combining filtering and extraction (yes we can) 
     * assertThat(fellowshipOfTheRing).filteredOn(character -> character.getName().contains("o")) .containsOnly(aragorn, frodo, legolas, boromir) .extracting(character -> character.getRace().getName()) .contains("Hobbit", "Elf", "Man"); 
 
-##AssertJ 참고 사이트
+## AssertJ 참고 사이트
 * AssertJ는 오픈 소스 프로젝트로 github에 공개되어있다. 아래 URL에 상황에 맞는 샘플이 작성되어있는데 시간이 남을 때 참고하면 좋겠다.
 * AssertJ 샘플 : https://github.com/joel-costigliola/assertj-examples/tree/master/assertions-examples/src/test/java/org/assertj/examples
 * AssertJ java doc : http://joel-costigliola.github.io/assertj/core-8/api/index.html
