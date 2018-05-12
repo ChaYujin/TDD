@@ -12,6 +12,7 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
     Java8 : testCompile 'org.assertj:assertj-core:3.6.2'
     Java7 : testCompile 'org.assertj:assertj-core:2.6.0'
     ```
+    - dependency주소 : https://mvnrepository.com/artifact/org.assertj/assertj-core 
 *  Maven
     ```
     <dependency>
