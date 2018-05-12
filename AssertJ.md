@@ -72,7 +72,7 @@ Java8 이상 기반 프로젝트는 3.x 버전을, Java7 이하 기반 프로젝
     * 검증 : 이름, 나이, 레이스이름을 가져와 3명의 정보와 비교하여 포함되는지 확인 
 
 * [Filtering] race값이 HOBBIT인 값을 가져와 속하는지 확인
-    * assertThat(fellowshipOfTheRing).filteredOn("race" HOBBIT) .containsOnly(sam, frodo, pippin, merry); 
+    * assertThat(fellowshipOfTheRing).filteredOn("race", HOBBIT) .containsOnly(sam, frodo, pippin, merry); 
 
 * [Filtering] Java8 name에 "o"가 포함된 정보를 가져와 객체 안에 속하는지 확인
     * assertThat(fellowshipOfTheRing).filteredOn(character -> character.getName().contains("o")) .containsOnly(aragorn, frodo, legolas, boromir); 
